@@ -36,4 +36,4 @@ export const getOrderById = asyncHandler(async (req, res) => {
     res.status(404);
     throw new Error('Order not found');
   }
-}
+})
